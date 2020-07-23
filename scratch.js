@@ -75,7 +75,7 @@
     function handlePercentage(filledInPixels) {
       filledInPixels = filledInPixels || 0;
       console.log(filledInPixels + '%');
-      if (filledInPixels > 85) {
+      if (filledInPixels > 75) {
         canvas.parentNode.removeChild(canvas);
         $('.cntext').addClass('cntxt_visible');
       }
