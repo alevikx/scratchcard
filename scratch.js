@@ -78,7 +78,7 @@
       if (filledInPixels > 75) {
         canvas.parentNode.removeChild(canvas);
         $('.cntext').addClass('cntxt_visible');
-        $('.body').removeClass('result');
+        $('.body').addClass('result');
       }
     }
     
