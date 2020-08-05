@@ -79,7 +79,10 @@
         canvas.parentNode.removeChild(canvas);
         $('.cntext').addClass('cntxt_visible');
         $('.body').addClass('result');
-        $('.chatter').addClass('active');
+        setTimeout(function(){
+          $('.chatter').addClass('active');
+        }, 3000);
+        
       }
     }
     
